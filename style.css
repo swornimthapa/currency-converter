@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(167, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+input , select , button{
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+.main-container{
+    height: 25rem;
+    width: 25rem;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+.main-container h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+.main-container p{
+    font-size: 1rem;
+    font-weight: 650;
+    margin-bottom: 10px;
+    position: relative;
+}
+.main-container input{
+    border: 1px solid black;
+    font-size: 1rem;
+    height: 2rem;
+    width: 100%;
+    padding: 10px;
+}
+
+.exchange-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25%;
+    margin: 20px 0px;
+
+}
+.exchange-container i{
+    font-size:1.5rem;
+    align-self: center;
+}
+
+.select-container{
+    width:100%;
+    border-radius: 6px;
+    border: 1px solid black;
+    height: fit-content;
+    display: flex;
+    margin: 10px 0;
+}
+
+img{
+    height: 2rem;
+}
+select{
+    width: 100%;
+}
+
+#exchageRate{
+    margin-top: 50px;
+}
+
+button{
+    width: 100%;
+    border: 1px solid black;
+    font:  1rem;
+    padding: 10px;
+
+}
