@@ -11,12 +11,13 @@
     <div class="main-container">
         <h1>Currency Converter</h1>
         <p>Enter Amount</p>
-        <input type="text" placeholder="Enter the amount">
+        <input id="amount" type="text" placeholder="Enter the amount" value="1">
         <div class="exchange-container">
             <div class="from-container">
                 <p>From</p>
                 <div class="select-container">
-                    <img src="https://flagsapi.com/NP/shiny/64.png" alt="flag">
+                    <img src="https://flagsapi.com/US/shiny/64.png" alt="flag">
+
                     <select id="from-select">
                     
                     </select>
@@ -26,7 +27,8 @@
             <div class="to-container">
                 <p>To</p>
                 <div class="select-container">
-                    <img src="https://flagsapi.com/US/shiny/64.png" alt="flag">
+                    <img src="https://flagsapi.com/NP/shiny/64.png" alt="flag">
+
                     <select id="to-select">
                    
                     </select>
@@ -35,7 +37,7 @@
         </div>
         
         <p id="exchageRate">1USD = 100NRS</p>
-        <button type="submit">Get Exchage Rates</button>
+        <button type="submit" class="button">Get Exchage Rates</button>
     </div>
     <script src="./codes.js"></script>
     <script src="./main.js"></script>
